@@ -1,0 +1,28 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   ## Description   Utilizes MVC structuring to create a blog with user profile and content management.   ## Table of Contents   - [Installation](#installation)   - [Usage](#usage)   - [Contributions](#contributions)   - [Testing](#testing)   - [License](#license)   ## Installation   Uses Heroku for Express server hosting and various NPM packages which can be installed after cloning the repo.   ## Usage   This project provides a CMS-style blog similar to Wordpress with user login and blog post functionality.   ## Contributions   To contribute any ideas, please do so via email.   ### Brett.MarklandSanchez@gmail.com   ### https://github.com/BrettMarkland-Sanchez   ## Testing   There are currently no predefined tests for this project.   ## License",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrettMarkland-Sanchez/tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrettMarkland-Sanchez/tech-blog/issues"
+  },
+  "homepage": "https://github.com/BrettMarkland-Sanchez/tech-blog#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5"
+  }
+}
