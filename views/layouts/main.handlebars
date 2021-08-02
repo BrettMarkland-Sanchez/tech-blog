@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMS Tech Blog - Homepage</title>
+  <title>BMS Tech Blog</title>
   <!-- Compiled and minified Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -14,17 +14,19 @@
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
-        <span role="img" aria-label="money">💸</span>
-        <a href="/">Fund My Project!</a>
+        <span>
+          <a href="/">BMS Tech Blog</a>
+          <img class="tech-icon" src="/assets/noun_Tech.png" alt="Tech Blog Icon" width="80px" height="80px" author="Tech by Icon Market from the Noun Project">
+        </span>
       </h1>
       <nav>
-        <!-- Conditionally render login or logout links -->
+        <a class="myLink" href="/">Home</a> | <a class="myLink" href="/dashboard">Dashboard</a>
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <button class="myButton" id="logout">Logout</button>
+        <p style="float: right;">Welcome, {{user.name}}!</p>
         {{else}}
-        <a href="/login">login</a>
-        {{/if}}
+        <button><a class="myButton" href="/login">Login</a></button>
+        {{/if}}    
       </nav>
     </header>
     <main class="container container-fluid mt-5">

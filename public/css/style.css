@@ -1,1 +1,86 @@
+html {
+    background-color: #2f455c;
+    min-width: 510px;
+    color: #fff;
+}
 
+h1 {
+    margin: 0;
+    padding: 14px;
+    margin-bottom: 7px;
+    text-shadow: 0 0 10px #21d0b2;
+}
+
+.myLink {
+    color: #1dcdfe;
+    font-weight: bold;
+}
+
+nav button {
+    margin-left: 1em;
+    padding: 4px;
+}
+
+.myButton {
+    color: #2f455c;
+    font-weight: bold;
+    padding: 4px;
+    margin: 0;
+    width: 100px;
+}
+
+.bottom-space {
+    margin-bottom: 1em;
+}
+
+h1 a {
+    color: #34f5c5;
+}
+
+h2 {
+    margin: 0;
+    padding: .25em;
+    text-align: center;
+    margin-bottom: .25em;
+}
+
+post {
+    box-shadow: 0 0 20px #21d0b2;
+}
+
+post .top {
+    background-color: rgb(30, 49, 49);
+    padding: 14px;
+    box-shadow: 0 0 10px #21d0b2;
+}
+
+post h5, h6 {
+    margin: 0;
+}
+
+post h6 {
+    text-align: right;
+    margin-top: 5px;
+}
+
+post p {
+    padding: 14px;
+    box-shadow: 0 0 10px #21d0b2;
+    margin: 0;
+}
+
+nav {
+    background-color: darkslategrey;
+    padding: .5em 1em;
+    height: fit-content;
+}
+
+nav p {
+    margin: 0 1em 0 0;
+    font-weight: bold;
+}
+
+.tech-icon {
+    margin-bottom: -20px;
+    padding: 0;
+}
