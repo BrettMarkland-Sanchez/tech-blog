@@ -39,7 +39,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-router.post('/login', (req, res) => {
+router.post('/login', async (req, res) => {
   try {
     // Look for a user in the DB using the passed name
     const userData = await User.findOne({
