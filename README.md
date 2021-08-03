@@ -3,6 +3,8 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   Utilizes MVC structuring to create a blog with user profile and content management.
+  ## Heroku Deployment
+  https://bms-tech-blog.herokuapp.com/
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
